@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic:400,700&display=swap');
+/*styling  for body and nav */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;	
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 45px;
+	box-sizing: border-box;
+	transition: .5s ;
+}
+nav.black{
+	background: rgba(1,1,1,0.8);
+	height: 100px;
+	padding: 10px 50px;
+}
+
+nav .logo{
+	float: left;
+}
+
+nav .logo img{
+	height: 80px;
+	transition: .5s;
+}
+nav.black nav .logo img{
+	height: 60px;	
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li{
+	list-style: none;
+	color: white;
+
+}
+ 
+
+nav ul li a{
+	line-height: 80px;
+	color: white;
+	padding: 5px 20px;
+	font-family: 'Livvic', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+
+} 
+nav.black nav ul li a{
+	color: white;
+	line-height: 60px;
+}
+
+nav ul li a.active,
+nav ul li a:hover
+{
+	color: white;
+	background: #bf55ec;
+}
+/*Styling for body and navigation end*/
+
+section.sec1{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+/* styling for main header*/
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top:55%;
+	left: 50%;
+	font-family: 'Livvic', sans-serif;
+	transform: translate(-50%,-50%) ;
+}
+/* styling for main header ends*/
+/*Styling  for h1 and h2 tags*/
+h1{
+	color: #fff;
+	font-size: 140%
+	font-family: 'Livvic', sans-serif;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+h2 {
+	color: #fff;
+	font-size: 22%
+	font-family: 'Livvic', sans-serif;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: default;
+	font-weight: lighter;
+}
+h2 a{
+	color: #bf55ec;
+}
+
+h2 a:hover{
+	color: white;
+}
+/*Styling  for h1 and h2 tags end*/
+/*styling for button */
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2;
+}
+
+.btn-full{
+	background-color: transparent;
+	color: #bf55ec;
+	margin-right: 15px;
+	border: 1px solid #bf55ec;
+}
+
+.btn-full:hover{
+	background-color: #fff;
+}
+
+.btn-nav{
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.btn-nav:hover{
+	background-color: #bf55ec;
+}
+/*styling for button end*/
+/*Styling for colour changing roadseva */
+.colorchange{
+	animation: colorchangeROADSEVA 2s infinite;
+}
+
+@keyframes colorchangeROADSEVA{
+	0%{color: white;}
+	25%{color: #bf55ec;}
+	50%{color: white;}
+	100%{color: #bf55ec;}
+}
+/*Styling for colour changing roadseva ends */
+
+.mobile-icon{
+	display: none;
+}
+/*Media query*/
+
+@media only screen and (max-width: 1180px){
+	.main-content-header{
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+
+@media only screen and (max-width: 998px){
+	h1{font-size: 200%; }
+}
+
+@media only screen and (max-width: 768px){
+	h1{font-size: 180%; }
+
+	.main-nav{display: none;}
+
+	.mobile-icon{
+	display: inline-block;
+	color: #fff;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	}
+	.main-nav li {
+		float: left;
+		display: block;
+		margin-top: 10px; 
+	}
+}
+
+/*styling for footer */
+footer .flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    footer small {
+        flex-basis: 100%;
+        font-size: 0.75em;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    footer ul {
+    	display: flex;
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0;
+        float: right;
+    }
+footer ul li {
+        margin: 0 10px;
+    }
+
+    footer ul li a {
+        font-size: 0.75em;
+    }    
+footer {
+    background-color: #252525;
+    padding: 25px 0 20px;
+}
+
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+	display: block;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+	text-decoration: none;
+    color: #ddd;
+    font-size: 0.8em;
+}
+footer ul li a:hover{
+	color: aqua;
+}
+

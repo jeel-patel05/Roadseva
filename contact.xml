@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- XML demonstration -->
+<?xml-stylesheet type="text/css" href="contact.css"?>
+
+
+<!DOCTYPE contus>
+<contus>
+
+<branch>
+<name>Aurangabad</name>
+<area>Shop 13, Pisa Devi Road.</area>
+<depth>+91 5647854629</depth>
+</branch>
+
+<branch>
+<name>Nagpur</name>
+<area>Shop 56, Ramdev baba Chowk</area>
+<depth>+91 9874213651</depth>
+</branch>
+
+<branch>
+<name>Kolhapur</name>
+<area>10, Ravi Nagar</area>
+<depth>+91 9874213651</depth>
+</branch>
+
+<branch>
+<name>Pune</name>
+<area>Maharaj dev, Pimpri-Chinchwad</area>
+<depth>+91 9874213651</depth>
+</branch>
+
+<branch>
+<name>Nashik</name>
+<area>Shrisagar Road, Gavanth Road</area>
+<depth>+91 9874213651</depth>
+</branch>
+
+<branch>
+<name>Mumbai: Andheri</name>
+<area>Lokhandwala</area>
+<depth>+91 9874213651</depth>
+</branch>
+
+</contus>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+body{
+	background: white;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.contact-title{
+	margin-top: 45px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 2s ease;
+}
+.wrapper{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 20px;
+	float: left;
+}
+.contact-form{
+	max-width: 550px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.8);
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+
+}
+
+.input-fields,
+.msg{
+	width: 48%;
+} 
+
+.input-fields .input,
+.msg textarea{
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #c5ecfd;
+	padding: 10px;
+	color: #c5ecfd;
+	width: 100%;
+
+}
+.msg textarea{
+	height: 212px;
+}
+
+::-webkit-input-placeholder{
+	color: #c5ecfd;
+}
+::-moz-input-placeholder{
+	color: #c5ecfd;
+}
+::-ms-input-placeholder{
+	color: #c5ecfd;
+}
+
+.btn{
+	background: #39b7dd;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	text-align: uppercase;
+
+}
+
+@media screen and (max-width: 600px){
+	.contact-form{
+		flex-direction: column;
+	}
+	.msg textarea{
+		heught: 80px;
+	}
+	.input-fields,
+	.msg{
+		width: 100%;
+
+	}
+}
+.maps{
+	height: 212px;
+	margin: 10px 0;
+	border: 0;
+	border-bottom: 2px solid #c5ecfd;
+	padding: 10px;
+	color: #c5ecfd;
+	width: 100%;
+	width: 48%;
+}
+
+nav
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	padding: 10px 45px;
+	box-sizing: border-box;
+	transition: .5s ;
+
+}
+
+nav .logo{
+	float: left;
+	
+}
+
+nav .logo img{
+	height: 80px;
+	transition: .5s;
+}
+nav.black nav .logo img{
+	height: 60px;	
+}
+
+nav.black{
+	background: rgba(255,255,255,0.8);
+	height: 80px;
+	padding: 10px 60px;
+}
+
+

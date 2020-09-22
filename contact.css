@@ -1,0 +1,56 @@
+/*** XML demonstration ***/
+
+contus:before {
+  display: block;
+  width: 8em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Our Branches";
+  color: white;
+  margin: -.75em 0px .25em -.25em;
+  padding: .1em .25em;
+  background-color: black;
+  }
+
+contus {
+  display: block;
+  margin: 2em 1em;
+  border: 4px solid black;
+  padding: 0px 1em;
+  background-image: url();
+  }
+
+branch {
+  display: block;
+  margin-bottom: 1em;
+  }
+
+name {
+  display: block;
+  font-weight: bold;
+  font-size: 150%;
+  }
+
+area {
+  display: block;
+  }
+
+area:before {
+  content: "Area: ";
+  }
+
+area:after {
+  content: " ";
+  }
+
+depth {
+  display: block;
+  }
+
+depth:before {
+  content: "Contact: ";
+  }
+
+depth:after {
+  content: "";
+}

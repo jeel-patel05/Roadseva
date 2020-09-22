@@ -1,0 +1,276 @@
+body 
+{
+background: url(abs1.jpg) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color:#000;
+margin: 0;
+padding: 0;
+}
+.swiper-container
+{
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.swiper-slide 
+{
+background-position: center;
+background-size: cover;
+background: white;
+width: 250px;
+height: 390px;
+}
+h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  float: center;
+}
+.pricing-table{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   border-radius: 25px;
+
+}
+.col{
+  flex: 25%;
+  padding: 10px;
+  max-width: 320px;
+  box-sizing: border-box; 
+
+}
+.table{
+  background: #2c3e50;
+  background-size: cover;
+  color: white;
+  width: 210px;
+  height: 330px;
+  padding: 20px 20px;
+  font-family: "montserrat", sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+ 
+
+
+}
+.table h2{
+  text-transform: uppercase;
+
+}
+.table ul{
+  margin: 0;
+  padding: 0;
+}
+.table ul li{
+padding: 10px 0;
+list-style:none;
+}
+.price{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.price span{
+  display: block;
+  font-size: 14px;
+}
+.table a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: 2px solid #2c3e50;
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 40px;
+  border-color:white;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.5s linear;
+}
+
+.table a:hover{
+  background: white;
+  color:#2c3e50 ;
+}
+.table1{
+  background: #2c3e50;
+  background-size: cover;
+  color: white;
+  width: 210px;
+  height: 330px;
+  padding: 20px 20px;
+  font-family: "montserrat", sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+
+}
+.table1 h2{
+  text-transform: uppercase;
+
+}
+.table1 ul{
+  margin: 0;
+  padding: 0;
+}
+.table1 ul li{
+padding: 10px 0;
+list-style:none;
+}
+.price{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.price span{
+  display: block;
+  font-size: 14px;
+}
+.table1 a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: 2px solid #2c3e50;
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 40px;
+  border-color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.5s linear;
+}
+
+.table1 a:hover{
+  background: white;
+  color:#2c3e50 ;
+}
+.table2{
+  background: #2c3e50;
+  background-size: cover;
+  color: white;
+  width: 210px;
+  height: 330px;
+  padding: 20px 20px;
+  font-family: "montserrat", sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+
+}
+.table2 h2{
+  text-transform: uppercase;
+
+}
+.table2 ul{
+  margin: 0;
+  padding: 0;
+}
+.table2 ul li{
+padding: 10px 0;
+list-style:none;
+}
+.price{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.price span{
+  display: block;
+  font-size: 14px;
+}
+.table2 a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: 2px solid #2c3e50;
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 40px;
+  border-color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.5s linear;
+}
+
+.table2 a:hover{
+  background: white;
+  color:#2c3e50 ;
+}
+.table3{
+  background: #2c3e50;
+  background-size: cover;
+  color: white;
+  width: 210px;
+  height: 330px;
+  padding: 20px 20px;
+  font-family: "montserrat", sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+
+}
+.table3 h2{
+  text-transform: uppercase;
+
+}
+.table3 ul{
+  margin: 0;
+  padding: 0;
+}
+.table3 ul li{
+padding: 10px 0;
+list-style:none;
+}
+.price{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.price span{
+  display: block;
+  font-size: 14px;
+}
+.table3 a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: 2px solid #2c3e50;
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-radius: 40px;
+  border-color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.5s linear;
+}
+
+.table3 a:hover{
+  background: white;
+  color:#2c3e50 ;
+}
+.pop{
+  background: white;
+  color: black;
+  transform: rotate(45deg);
+  position: absolute;
+  padding: 10px 40px;
+  top: 16px;
+  right: -34px; 
+}
+@media screen and (max-width: 980px){
+  .col{
+    flex:50%;
+  }
+}
+@media screen and (max-width: 700px){
+  .col{
+    flex:100%;
+  }
+}

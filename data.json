@@ -1,0 +1,185 @@
+[
+  {
+    "name":"bmw",
+    "image": "bmw.jpg",
+    "location":""    
+  },
+  {
+    "name":"volvo",
+    "image": "volvo.jpg",
+    "location":""
+  },
+
+
+  {
+    "name":"kia",
+    "image": "kia.jpg",
+    "location":""
+  },
+  {
+    "name":"hyundai",
+    "image": "hyundai.jpg",
+    "location":""
+  },
+  {
+    "name":"audi",
+    "image": "audi.jpg",
+    "location":""
+  },
+  {
+    "name":"chevrolet",
+    "image": "chevrolet.jpg",
+    "location":""
+  },
+  {
+    "name":"daewoo",
+    "image": "daewoo.jpg",
+    "location":""
+  },
+  {
+    "name":"maruti",
+    "image": "maruti.jpg",
+    "location":""
+  },
+  {
+    "name":"toyota",
+    "image": "toyota.jpg",
+    "location":""
+  },
+  {
+    "name":"mahindra",
+    "image": "mahindra.jpg",
+    "location":""
+  },
+  {
+    "name":"skoda",
+    "image": "skoda.jpg",
+    "location":""
+  },
+  {
+    "name":"mitsubishi",
+    "image": "mitsubishi.jpg",
+    "location":""
+  },
+  {
+    "name":"volkswagen",
+    "image": "volkswagen.jpg",
+    "location":""
+  },
+  {
+    "name":"nissan",
+    "image": "nissan.jpg",
+    "location":""
+  },
+  {
+    "name":"renault",
+    "image": "renault.jpg",
+    "location":""
+  },
+  {
+    "name":"mercedes-benz",
+    "image": "benz.jpg",
+    "location":""
+  },
+  {
+    "name":"mini",
+    "image": "mini.jpg",
+    "location":""
+  },
+  {
+    "name":"tata",
+    "image": "tata.jpg",
+    "location":""
+  },
+  {
+    "name":"honda",
+    "image": "honda.jpg",
+    "location":""
+  },
+  {
+    "name":"tvs",
+    "image": "tvs.jpg",
+    "location":""
+  },
+  {
+    "name":"fiat",
+    "image": "fiat.jpg",
+    "location":""
+  },
+  {
+    "name":"kawasaki",
+    "image": "kawasaki.jpg",
+    "location":""
+  },
+  {
+    "name":"jeep",
+    "image": "jeep.jpg",
+    "location":""
+  },
+  {
+    "name":"ktm",
+    "image": "ktm.jpg",
+    "location":""
+  },
+  {
+    "name":"land rover",
+    "image": "landrover.jpg",
+    "location":""
+  },
+  {
+    "name":"triumph",
+    "image": "triumph.jpg",
+    "location":""
+  },
+  {
+    "name":"suzuki",
+    "image": "suzuki.jpg",
+    "location":""
+  },
+  {
+    "name":"mazda",
+    "image": "mazda.jpg",
+    "location":""
+  },
+  {
+    "name":"harley davidson",
+    "image": "harley.jpg",
+    "location":""
+  },
+  {
+    "name":"hero",
+    "image": "hero.jpg",
+    "location":""
+  },
+  {
+    "name":"yamaha",
+    "image": "yamaha.jpg",
+    "location":""
+  },
+  {
+    "name":"jaguar",
+    "image": "jaguar.jpg",
+    "location":""
+  },
+  {
+    "name":"ford",
+    "image": "ford.jpg",
+    "location":""
+  },
+  {
+    "name":"hindustan motors",
+    "image": "hindustan.jpg",
+    "location":""
+  },
+  {
+    "name":"royal enfield",
+    "image": "royal.jpg",
+    "location":""
+  },
+  {
+    "name":"bajaj",
+    "image": "bajaj.jpg",
+    "location":""
+  }
+  
+]
